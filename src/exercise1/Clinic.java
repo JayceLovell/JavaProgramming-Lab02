@@ -23,11 +23,11 @@ public class Clinic {
 	}
 	public void setAddress(String value1, String value2, String value3)
 	{
-		
+		new Address(value1,value2,value3);
 	}
-	public ArrayList getAllPatients()
+	public ArrayList<Patient> getAllPatients()
 	{
-
+		return patients;
 	}
 
 	public Clinic()

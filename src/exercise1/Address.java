@@ -12,6 +12,8 @@ public class Address {
 	
 	public Address(String value1,String value2,String value3)
 	{
-		
+		street=value1;
+		city=value2;
+		country=value3;
 	}
 }
