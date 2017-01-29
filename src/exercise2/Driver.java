@@ -18,25 +18,25 @@ public class Driver {
 	private static void shakeTheBall() {
 		Random rand = new Random();
 		
-		int random=rand.nextInt(6);
-
+		int random=rand.nextInt(5);
+		
 		switch (random) {
-		case 1:
+		case 0:
 			System.out.println(Messages.ONE);
 			break;
-		case 2:
+		case 1:
 			System.out.println(Messages.TWO);
 			break;
-		case 3:
+		case 2:
 			System.out.println(Messages.THREE);
 			break;
-		case 4:
+		case 3:
 			System.out.println(Messages.FOUR);
 			break;
-		case 5:
+		case 4:
 			System.out.println(Messages.FIVE);
 			break;
-		case 6:
+		case 5:
 			System.out.println(Messages.SIX);
 			break;
 		default:
